@@ -12,6 +12,5 @@ theme: flatly
 
 4. Add labels and a title to this plot
 
-5. Download the .html file and upload on canvas under [Upload Application Exercise 03]
 
 [![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
