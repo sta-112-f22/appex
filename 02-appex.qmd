@@ -1,0 +1,20 @@
+---
+title: "Appex 02"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+1.  Open the Welcome Penguins folder from Day 1 in RStudio Pro (can't find it? Copy the files again by [following these instructions](https://sta-112-f22.github.io/appex/01-welcome-penguins))
+
+2.  Create a new R chunk (don't remember how to do this? Make sure you are using the visual editor then click Insert > Code Chunk > R). Using the code in the chunk labeled `plot` as a template, create a plot that examines the relationship between `x` = Flipper Length and `y` = Bill Depth. 
+
+3. Update the plot from part 2 to have a different shape depending on the Island the penguin is from.
+
+4. Change the size of all of the points to 3.
+
+5. Be sure to update all labels to describe what you have created.
+
+BONUS: Is there any missing data? What is the plot doing with the missing values? See if you can get rid of the warning message.
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)

@@ -1,0 +1,15 @@
+---
+title: "Appex 03"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+1.  Open the Welcome Penguins folder from the [previous application exercise](https://sta-112-f22.github.io/appex/02-appex)
+
+2. Create a boxplot examining the relationship between the body mass of a penguin and their species. 
+3. Add jittered points to this plot
+
+4. Add labels and a title to this plot
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
