@@ -1,0 +1,68 @@
+---
+title: "Appex 04"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1 
+
+1. Create a new project using my template here: 
+
+```bash
+https://github.com/sta-112-f22/appex-04-starwars.git
+```
+
+2. Run the R chunk labeled `"load-packages"`
+3. Take a look at the `starwars` data
+
+## Part 2
+
+In the Console, use `filter()` and logical tests to show...
+
+1. The data for Humans
+2. The data for characters with a homeworld Alderaan
+3. Rows where the mass is greater than 1000
+
+## Part 3
+
+Create a new R chunk in your .qmd file. Use `filter()` and Boolean logical tests to show...
+
+1. Droids more than 70 kg
+2. Characters that are born before 56 and have blue eyes
+3. Characters that are born before 56 and have blue eyes and are not Human
+
+## Part 4
+
+Create a new R chunk in your .qmd file. Use `mutate()` to 
+
+1. Add a `droid` column that is `TRUE` if the species is a Droid
+2. Add a column for the logged weight (hint: use `log()`)
+3. Add a `human_droid` column that says "Human or Droid" if the character is a human or a droid and "Not Human or Droid" if it's not
+
+## Part 5
+
+Create a new R chunk in your .qmd file. Use `summarize()` to calculate...
+
+1. The first (minimum) birth year in the dataset
+2. The last (maximum) birth year in the dataset
+3. The number of distinct homeworlds in the dataset (use the cheatsheet)
+
+## Part 6
+
+Create a new R chunk in your .qmd file. Use `filter()` and `summarize()` to calculate
+
+1. The number of unique homeworlds and
+2. The median height for characters from Tatooine born before the year 100
+
+## Part 7
+
+Create a new R chunk in your .qmd file.
+
+1. Find the minimum, maximum, and median mass for each species
+2. Find the minimum, maximum, and median mass for each species from Tatooine
+
+
+
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
