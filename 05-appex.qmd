@@ -1,0 +1,42 @@
+---
+title: "Appex 05"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1 
+
+data  |
+------|----
+$x_1$ | 3
+$x_2$ | 5
+$x_3$ | 1
+$x_4$ | 7
+$x_5$ | 8
+
+##
+
+1. Using the data to the left, what is $n$?
+2. What is $\bar{x}$?
+
+## Part 2
+
+Open your `04-appex.qmd` file in RStudio Pro. Load the packages by running the top R chunk of code. 
+
+1. Copy the code below into an R chunk at the bottom of the file:
+
+```{r}
+#| eval: false
+d <- tibble(
+  x = c(3, 5, 1, 7, 8)
+)
+```
+
+What do you think this code does? Try typing `?tibble` in the Console - what does this function do?
+
+2. Calculate the `mean` of `x`. Do this two ways, using the `summary` function and using the `lm` function.
+3. Add a new variable called `error` to the data set `d` that is equal to `x` minus the mean of x.
+
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
