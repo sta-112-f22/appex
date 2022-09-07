@@ -1,0 +1,25 @@
+---
+title: "Appex 06"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1 
+
+Open your `04-appex.qmd` file. Load the packages by running the top R chunk of code. 
+
+1. Create a visual summary using the `starwars` data of the relationship between `mass` and `height`. What do you notice?
+2. Fit a linear model on the `starwars` data set predicting a characters `mass` using their `height`.
+3. Create a new data set called `starwars_nojabba` where you drop "Jabba Desilijic Tiure" from the data. You can edit the code below to do this.
+
+```{r}
+#| eval: false
+starwars_nojabba <- starwars %>%
+  filter(name == "----")
+```
+
+4. Recreate the plot from 1 on `starwars_nojabba`
+5. Refit the linear model from 2 on this reduced data set. How do the coefficients compare? Which is a better representation of the average character?
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
