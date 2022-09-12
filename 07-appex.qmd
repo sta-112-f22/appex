@@ -1,0 +1,27 @@
+---
+title: "Appex 07"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Go to [lucy.shinyapps.io/least-squares/](https://lucy.shinyapps.io/least-squares/)
+2. This shows a scatter plot of 10 data points with a line estimating the relationship between `x` and `y`. Drag the blue points to change the line.
+3. See if you can find a line that minimizes the sum of square errors
+
+## Part 2
+
+1. Create a new project from this template in RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-07.git
+```
+2. Load the packages and data by running the top chunk of R code
+3. Learn about the `PorschePrice` data by running `?PorschePrice` in your Console 
+4. Fit a linear model predicting `Price` from `Mileage`
+5. Add a variable called `y_hat` to the `PorschePrice` dataset with the predicted y values
+6. Add a variable called `residual` to the `PorschePrice` dataset with the residuals
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
