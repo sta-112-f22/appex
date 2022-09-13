@@ -19,6 +19,7 @@ We are going to collect some data! We are trying to estimate the average length 
   * For **iPhone users**, an app called "Measure" is automatically on your phone (if you don't see it search "Measure" in your search bar)
   * For **Android users**, you can install this app called ["Ruler"](https://play.google.com/store/apps/details?id=fr.ecp.ruler.app) (or something similar)
 * Go to [bit.ly/magnolia-data](https://bit.ly/magnolia-data), this will take you to a Google Spreadsheet. Make a copy of this sheet by clicking `File > Make a Copy`
+* Make your Google Spreadsheet viewable by anyone with the link (so we can use the data in class). Click `Share > General Access > Anyone with the link`.
 * Measure 30 leaves (in **centimeters**) and enter the data in this spreadsheet (don't pull the leaves off the trees please! Either measure ones on the ground or measure them while still on the tree `r emo::ji("smile")` )
 * Submit your data here: [bit.ly/magnolia-data-form](https://bit.ly/magnolia-data-form)
 
