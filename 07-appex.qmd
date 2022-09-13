@@ -7,11 +7,28 @@ theme: flatly
 
 ## Part 1
 
+We are going to collect some data! We are trying to estimate the average length and width of magnolia leaves. To do this, you are each going to measure 30 leaves on trees in the Mag Quad. We will use this data in class on Thursday. 
+
+**Measurment collection**
+
+* We are measuring leaf length (from stem to tip of the leaf, in green below) and width (the widest part of the leaf, in yellow below).
+
+![](img/07/mag.jpeg)
+
+* To do this, you can use an app on your phone. 
+  * For **iPhone users**, an app called "Measure" is automatically on your phone (if you don't see it search "Measure" in your search bar)
+  * For **Android users**, you can install this app called ["Ruler"](https://play.google.com/store/apps/details?id=fr.ecp.ruler.app) (or something similar)
+* Go to [bit.ly/magnolia-data](https://bit.ly/magnolia-data), this will take you to a Google Spreadsheet. Make a copy of this sheet by clicking `File > Make a Copy`
+* Measure 30 leaves and enter the data in this spreadsheet (don't pull the leaves off the trees please! Either measure ones on the ground or measure them while still on the tree `r emo::ji("smile")` )
+* Submit your data here: [bit.ly/magnolia-data-form](https://bit.ly/magnolia-data-form)
+
+## Part 2
+
 1. Go to [lucy.shinyapps.io/least-squares/](https://lucy.shinyapps.io/least-squares/)
 2. This shows a scatter plot of 10 data points with a line estimating the relationship between `x` and `y`. Drag the blue points to change the line.
 3. See if you can find a line that minimizes the sum of square errors
 
-## Part 2
+## Part 3
 
 1. Create a new project from this template in RStudio Pro:
 
@@ -25,3 +42,4 @@ https://github.com/sta-112-f22/appex-07.git
 6. Add a variable called `residual` to the `PorschePrice` dataset with the residuals
 
 [![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
