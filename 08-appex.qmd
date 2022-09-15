@@ -1,0 +1,36 @@
+---
+title: "Appex 08"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Create a new project from this template in RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-08.git
+```
+2. Replace the text in the top code chunk that says `INSERT YOUR GOOGLE SPREADSHEET URL HERE` with the Google Spreadsheet URL with your magnolia data.
+3. Fit an intercept only model to calculate the average leaf length in your sample
+4. Use the `summary` function on the linear model you fit
+5. What is the standard error for the mean length? Interpret this value.
+
+## Part 2
+
+1. Open `appex-08.qmd`
+2. Calculate the $t^*$ value for your confidence interval 
+3. Calculate the confidence interval "by hand" using the $t^*$ value from exercise 2 and the mean and standard error from the previous application exercise
+4. Calculate the confidence interval using the `confint` function
+5. Interpret this value
+
+## Part 3
+
+1. Open `appex-08.qmd`
+2. Fit the model of `leaf_width` and `leaf_length` in your data
+3. Calculate a confidence interval for the parameter $\beta_1$
+4. Interpret this value
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
