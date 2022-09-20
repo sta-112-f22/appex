@@ -29,8 +29,15 @@ https://github.com/sta-112-f22/appex-08.git
 
 1. Open `appex-08.qmd`
 2. Fit the model of `leaf_width` and `leaf_length` in your data
-3. Calculate a confidence interval for the parameter $\beta_1$
+3. Calculate a confidence interval for the estimate $\hat\beta_1$
 4. Interpret this value
+
+## Part 4
+
+1. Open `appex-08.qmd`
+2. Examine the summary of the model of `leaf_length` and `leaf_width` with your data
+3. Test the null hypothesis that there is no relationship between the length and width of magnolia leaves
+4. What is the p-value? What is the result of your hypothesis test? 
 
 [![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
 
