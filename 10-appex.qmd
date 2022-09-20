@@ -1,0 +1,21 @@
+---
+title: "Appex 10"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+
+1. Create a new project from this template in RStudio Pro:
+```bash
+https://github.com/sta-112-f22/appex-10.git
+```
+2. Load the packages and data by running the top chunk of R code
+3. Learn about the `USstamps` data by running `?USstamps` in your Console 
+4. Use the `filter` function to remove observations with Year less than 1958
+5. Fit a linear model predicting the stamp price from year
+6. Calculate the studentized residuals and plot them -- are there any outliers?
+7. If you found an outlier, refit the model without it -- is this point "influential"? 
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
