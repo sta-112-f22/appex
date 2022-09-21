@@ -5,6 +5,7 @@ format: html
 theme: flatly
 ---
 
+## Part 1
 
 1. Create a new project from this template in RStudio Pro:
 ```bash
@@ -17,5 +18,13 @@ https://github.com/sta-112-f22/appex-10.git
 6. Calculate the studentized residuals and plot them -- are there any outliers?
 7. If you found an outlier, refit the model without it -- is this point "influential"? 
 
+
+## Part 2
+
+1. Go to https://lucy.shinyapps.io/magnolia-data/
+2. "Measure" 30 leaves by clicking on on 30 leaves in the photo of the Mag Quad.
+3. Copy the code on the right and paste it in your `appex-10.qmd` file. Run the code to create a data frame called `magnolia_data`
+4. Fit a linear model predicting leaf length from leaf width from your magnolia data. What is your estimate for $\hat\beta_1$? Create a confidence interval for this estimate.
 [![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
 
