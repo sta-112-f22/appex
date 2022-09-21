@@ -21,7 +21,7 @@ https://github.com/sta-112-f22/appex-10.git
 
 ## Part 2
 
-1. Go to https://lucy.shinyapps.io/magnolia-data/
+1. Go to [https://lucy.shinyapps.io/magnolia-data/](https://lucy.shinyapps.io/magnolia-data/)
 2. "Measure" 30 leaves by clicking on on 30 leaves in the photo of the Mag Quad.
 3. Copy the code on the right and paste it in your `appex-10.qmd` file. Run the code to create a data frame called `magnolia_data`
 4. Fit a linear model predicting leaf length from leaf width from your magnolia data. What is your estimate for $\hat\beta_1$? Create a confidence interval for this estimate.
