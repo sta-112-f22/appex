@@ -1,0 +1,39 @@
+---
+title: "Appex 11"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Copy the following template into RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-11.git
+```
+
+2. Go to [https://lucy.shinyapps.io/magnolia-data/](https://lucy.shinyapps.io/magnolia-data/) and collect 30 data points
+3. Bring your data into R. Fit a linear model predicting leaf length from leaf width
+4. What is the coefficient for $\hat\beta_1$? What is the t-statistic? What is the p-value?
+5. What hypothesis is this p-value assessing?
+
+
+## Part 2
+
+How many degrees of freedom does SSModel have?
+
+$$n - 1 = df_{SSModel} + (n - 2)$$
+
+## Part 3
+
+1. Open `appex-11.qmd` 
+2. Using your magnolia data, predict leaf length from leaf width
+3. What are the degrees of freedom for the: Sum of Squares Total, Sum of Squares Model, Sum of Squares Errors
+4. Calculate the following quantities: Sum of Squares Total, Sum of Squares Model, Sum of Squares Errors
+5. Calculate the F-statistic for the model and the p-value
+6. What is the null hypothesis? What is the alternative?
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
+
