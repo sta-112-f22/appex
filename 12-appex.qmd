@@ -1,0 +1,42 @@
+---
+title: "Appex 12"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Copy the following template into RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-12.git
+```
+
+2. Load the packages and then examine the `PorschePrice` data frame
+3. Fit a linear model predicting a Porsche's price from the mileage
+4. Examine the ANOVA table -- what is the F statistic? What is the associated p-value? Why hypothesis is it testing?
+
+
+## Part 2
+
+$$r^2 = \frac{\textrm{SSModel}}{\textrm{SSTotal}}$$
+
+How could you calculate $r^2$ if all you had was $\textrm{SSTotal}$ and $\textrm{SSE}$?
+
+## Part 3
+
+1. Open `appex-12.qmd`
+2. Run `summary` on your model predicting Porsche price from mileage
+3. What is the $r^2$? How can you interpret this?
+
+## Part 4
+
+1. Open `appex-12.qmd`
+2. You are interested in the predicted Porsche Price for Porsche cars that have 50,000 miles previously driven on average. Calculate this value with an appropriate confidence interval.
+3. You are interested in the predicted Porsche Price for a particular Porsche with 40,000 miles previously driven. Calculate this value with an appropriate confidence interval.
+
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
+
