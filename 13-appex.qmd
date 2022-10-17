@@ -1,0 +1,33 @@
+---
+title: "Appex 13"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Copy the following template into RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-13.git
+```
+
+2. Amend the code to calculate the proportion of each gender admitted and rejected. 
+3. Create a bar plot of the percent admitted (and rejected) by gender
+4. Create a bar plot of the percent admitted (and rejected) by gender faceted by Department
+
+## Part 2
+
+1. Open `appex-13.qmd`
+2. Using the `NFL2007Standings` data create a model that predicts `WinPct` from `PointsFor.` Examine the $R^2$ and $R^2_{adj}$ values.
+
+3. Using the NFL2007Standings data create a model that predicts `WinPct` from `PointsFor` AND `PointsAgainst.` Examine the $R^2$ and $R^2_{adj}$ values.
+
+4. Which model do you think is better for predicting win percent?
+
+
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
+
