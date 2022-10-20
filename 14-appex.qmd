@@ -22,6 +22,11 @@ https://github.com/sta-112-f22/appex-14.git
 ## Part 2
 
 
+1. Open `appex-14.qmd`
+2.  Fit the model  $TotalPrice = \beta_0  + \beta_1Carat + \beta_2 Carat^2 + \beta_3 Color+\epsilon$
+3.  Find the 0.25 quantile and 0.75 quantile of `Carat`
+4.  What is the interpretation of $\hat\beta_1$, $\hat\beta_2$, and $\hat\beta_3$?
+
 
 [![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
 
