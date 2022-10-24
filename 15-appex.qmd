@@ -1,0 +1,31 @@
+---
+title: "Appex 15"
+subtitle: "STA 112 - Fall 2022"
+format: html
+theme: flatly
+---
+
+## Part 1
+
+1. Copy the following template into RStudio Pro:
+
+```bash
+https://github.com/sta-112-f22/appex-15.git
+```
+
+2.  Fit a model predicting `GPA` using high school gpa (`HSGPA`) and verbal SAT score (`SATV`). Save this as `model1`
+
+3. Fit a model predicting `GPA` using high school gpa, verbal SAT score (`SATV`), and math SAT score (`SATM`). Save this as `model2`.
+
+4. Fit a model predicting `GPA` using high school gpa, verbal SAT score (`SATV`), math SAT score (`SATM`), and number of humanities credits taken in high school (`HU`). Save this as `model3`.
+
+5. Conduct an "nested F test" comparing Model 1 to Model 2. What are the null and alternative hypotheses? Is model 2 significantly better than model 1?
+
+6. Conduct a "nested F test" comparing Model 2 to Model 3. What are the null and alternative hypotheses? Is model 3 significantly better than model 2?
+
+7. Choose AIC or BIC to compare models 1, 2, and 3. Rank the models.
+
+
+[![](img/favicon.png){width="100" fig-align="right"}](https://bit.ly/sta-112-f22)
+
+
